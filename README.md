@@ -4,6 +4,6 @@
 ## Interactions by TCGA subtype
 
 ### HNSC: Head and Neck Squamous Cell Carcinoma
-- [Additive (+)](data/results/HNSC/additive.md)
-- [Competing (-)](data/results/HNSC/competing.md)
-- [XOR (*)](data/results/HNSC/xor.md)
+- [Additive (+)](explained_interactions/HNSC/additive.md)
+- [Competing (-)](explained_interactions/HNSC/competing.md)
+- [XOR (*)](explained_interactions/HNSC/xor.md)
