@@ -10,8 +10,8 @@
 | CESC | [gpt3-summary](explained_interactions/CESC/additive.md) | [gpt3-summary](explained_interactions/CESC/competing.md) | [gpt3-summary](explained_interactions/CESC/xor.md) |
 | COAD | [gpt3-summary](explained_interactions/COAD/additive.md) | [gpt3-summary](explained_interactions/COAD/competing.md) | [gpt3-summary](explained_interactions/COAD/xor.md) |
 | GBM | [gpt3-summary](explained_interactions/GBM/additive.md) | [gpt3-summary](explained_interactions/GBM/competing.md) | [gpt3-summary](explained_interactions/GBM/xor.md) |
-| HNSC | [gpt3-summary](explained_interactions/HNSC/additive.md) | [gpt3-summary](explained_interactions/HNSC/competing.md) | [gpt3-summary](explained_interactions/HNSC/xor.md) |
-| KIRC | [gpt3-summary](explained_interactions/KIRC/additive.md) | [gpt3-summary](explained_interactions/KIRC/competing.md) | [gpt3-summary](explained_interactions/KIRC/xor.md) |
+| HNSC | [gpt3-summary](explained_interactions/HNSC/additive.md) | [gpt3-summary](explained_interactions/HNSC/competing.md)</br> [gpt4-summary](explained_interactions/HNSC/competing_gpt-4.md) | [gpt3-summary](explained_interactions/HNSC/xor.md) |
+| KIRC | [gpt3-summary](explained_interactions/KIRC/additive.md) | [gpt3-summary](explained_interactions/KIRC/competing.md) </br> [gpt4-summary](explained_interactions/KIRC/competing_gpt-4.md)| [gpt3-summary](explained_interactions/KIRC/xor.md) |
 | KIRP | [gpt3-summary](explained_interactions/KIRP/additive.md) | [gpt3-summary](explained_interactions/KIRP/competing.md) | [gpt3-summary](explained_interactions/KIRP/xor.md) |
 | LAML | [gpt3-summary](explained_interactions/LAML/additive.md) | [gpt3-summary](explained_interactions/LAML/competing.md) | [gpt3-summary](explained_interactions/LAML/xor.md) |
 | LGG | [gpt3-summary](explained_interactions/LGG/additive.md) | [gpt3-summary](explained_interactions/LGG/competing.md) | [gpt3-summary](explained_interactions/LGG/xor.md) |
