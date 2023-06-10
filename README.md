@@ -34,3 +34,25 @@ To analyze our results, they are available in [computed_interactions](computed_i
 | STAD | [gpt3-summary](explained_interactions/STAD/additive.md) | [gpt3-summary](explained_interactions/STAD/competing.md) | [gpt3-summary](explained_interactions/STAD/xor.md) |
 | THCA | [gpt3-summary](explained_interactions/THCA/additive.md) | [gpt3-summary](explained_interactions/THCA/competing.md) | [gpt3-summary](explained_interactions/THCA/xor.md) |
 | UCEC | [gpt3-summary](explained_interactions/UCEC/additive.md) | [gpt3-summary](explained_interactions/UCEC/competing.md) | [gpt3-summary](explained_interactions/UCEC/xor.md) |
+
+*We used the following prompt:*
+
+```
+You are a helpful domain expert with a background in biology. You know the biology of each genes known in the literature. 
+
+Cancer type: TCGA-{cancer_type}
+Genes: {gene1} and {gene2}. 
+
+BioGRID protein interaction network; shortest path between {gene1} and {gene2}: {paths} .
+
+Context: {context}
+
+Based on what you know about these two genes and provided context. Describe briefly what specifically these genes do. 
+Can you reason about any possible functional associations between these two genes in specific biological terms? 
+Use context and your knowledge about biology to answer the question. Be specific in the processes where these genes are involved.
+
+Be concise. Answer in 2-3 short sentences. Start with possible functional associations. 
+
+"""
+```
+
