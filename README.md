@@ -8,6 +8,8 @@ To analyze our results, they are available in [computed_interactions](computed_i
 
 [Notebooks](notebooks) folder contains notebooks used to generate the figures and different types of analysis presented in the paper. If you have trouble running the notebooks, feel free to contact us (via email or repository issue tracker).
 
+Finally, the implementation of the method to calculate interactions is located in [method folder.](method)
+
 
 # Literature summaries for all interactions types across all of the datasets
 
