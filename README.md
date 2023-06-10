@@ -75,20 +75,6 @@ Be concise. Answer in 2-3 short sentences. Start with possible functional associ
 </br>
 </br>
 
-### [Permutation tests for CESC](figures/permutations/CESC_permutation_tests.pdf)
-
-<img src="figures/permutations/CESC_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for COAD](figures/permutations/COAD_permutation_tests.pdf)
-
-<img src="figures/permutations/COAD_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
 ### [Permutation tests for GBM](figures/permutations/GBM_permutation_tests.pdf)
 
 <img src="figures/permutations/GBM_permutation_tests.png" alt="drawing" width="600"/>
@@ -110,30 +96,9 @@ Be concise. Answer in 2-3 short sentences. Start with possible functional associ
 </br>
 </br>
 
-### [Permutation tests for KIRP](figures/permutations/KIRP_permutation_tests.pdf)
-
-<img src="figures/permutations/KIRP_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
 ### [Permutation tests for LAML](figures/permutations/LAML_permutation_tests.pdf)
 
 <img src="figures/permutations/LAML_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for LGG](figures/permutations/LGG_permutation_tests.pdf)
-
-<img src="figures/permutations/LGG_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for LIHC](figures/permutations/LIHC_permutation_tests.pdf)
-
-<img src="figures/permutations/LIHC_permutation_tests.png" alt="drawing" width="600"/>
 
 </br>
 </br>
@@ -159,44 +124,9 @@ Be concise. Answer in 2-3 short sentences. Start with possible functional associ
 </br>
 </br>
 
-### [Permutation tests for PRAD](figures/permutations/PRAD_permutation_tests.pdf)
-
-<img src="figures/permutations/PRAD_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for READ](figures/permutations/READ_permutation_tests.pdf)
-
-<img src="figures/permutations/READ_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
 ### [Permutation tests for SKCM](figures/permutations/SKCM_permutation_tests.pdf)
 
 <img src="figures/permutations/SKCM_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for STAD](figures/permutations/STAD_permutation_tests.pdf)
-
-<img src="figures/permutations/STAD_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for THCA](figures/permutations/THCA_permutation_tests.pdf)
-
-<img src="figures/permutations/THCA_permutation_tests.png" alt="drawing" width="600"/>
-
-</br>
-</br>
-
-### [Permutation tests for UCEC](figures/permutations/UCEC_permutation_tests.pdf)
-
-<img src="figures/permutations/UCEC_permutation_tests.png" alt="drawing" width="600"/>
 
 </br>
 </br>
