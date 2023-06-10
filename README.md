@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/647749385.svg)](https://zenodo.org/badge/latestdoi/647749385)
+
 # Discovery Science 2023: Gene Interactions in Survival Data Analysis: A Data-driven Approach Using Restricted Mean Survival Time and Literature Mining
 
 This repository has all the scripts and supporting data we used to analyze and generate the figures. The TCGA datasets are too big to store them here. To reproduce the results, please follow [this guide](https://github.com/biolab/AIME-2023-paper) to download the datasets and store them in the `data` folder.
