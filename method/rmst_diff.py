@@ -103,8 +103,6 @@ def fast_split_by_median(feature, feature_values, sorted_time, sorted_events, TI
 def rmst_diff(X: pd.DataFrame, y=None, return_all:bool=False):
         interaction = []
 
-
-
         y.loc[:, 'time'] = y['time'] + np.arange(len(y))*1e-5
         y.sort_values(by=['time'], inplace=True)
         X = X.loc[y.index] # sort X by y index

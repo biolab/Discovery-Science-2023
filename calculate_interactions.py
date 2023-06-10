@@ -49,7 +49,6 @@ def run(dataset: str):
     df['rmst_diff_f1+f2'] = (df[['rmst_f1', 'rmst_f2']].max(axis=1) -  df['rmst_f1+f2']).abs()
     df['rmst_diff_f1-f2'] = (df[['rmst_f1', 'rmst_f2']].max(axis=1) -  df['rmst_f1-f2']).abs()
     df['rmst_diff_f1*f2'] = (df[['rmst_f1', 'rmst_f2']].max(axis=1) -  df['rmst_f1*f2']).abs()
-    # df.to_csv(f'interactions/{dataset}.csv', index=False)
 
     df.to_csv(f'{dataset}.csv', index=False)
 
@@ -57,26 +56,26 @@ def run(dataset: str):
 
 
 DATASETS = [
-    # "BLCA",
-    # "BRCA",
+    "BLCA",
+    "BRCA",
     "CESC",
-    # "COAD",
-    # "GBM",
-    # "HNSC",
-    # "KIRC",
-    # "KIRP",
-    # "LAML",
-    # "LGG",
-    # "LIHC",
-    # "LUAD",
-    # "LUSC",
-    # "OV",
-    # "PRAD",
-    # "READ",
-    # "SKCM",
-    # "STAD",
-    # "THCA",
-    # "UCEC",
+    "COAD",
+    "GBM",
+    "HNSC",
+    "KIRC",
+    "KIRP",
+    "LAML",
+    "LGG",
+    "LIHC",
+    "LUAD",
+    "LUSC",
+    "OV",
+    "PRAD",
+    "READ",
+    "SKCM",
+    "STAD",
+    "THCA",
+    "UCEC",
     "METABRIC"
 ]
 

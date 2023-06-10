@@ -1,6 +1,15 @@
-# Results
+# Discovery Science 2023: Gene Interactions in Survival Data Analysis: A Data-driven Approach Using Restricted Mean Survival Time and Literature Mining
 
-## Literature summary for interactions
+This repository has all the scripts and supporting data we used to analyze and generate the figures. The TCGA datasets are too big to store them here. To reproduce the results, please follow [this guide](https://github.com/biolab/AIME-2023-paper) to download the datasets and store them in the `data` folder.
+
+Scripts for calculating [interactions](calculate_interactions.py) and [permutations](calculate_permutations.py) (note that this takes a considerable amount of time and compute resources).
+
+To analyze our results, they are available in [computed_interactions](computed_interactions). We have a separate .csv containing results for all interaction types for each dataset (note that permutation tests are not included because of the size limit).
+
+[Notebooks](notebooks) folder contains notebooks used to generate the figures and different types of analysis presented in the paper. If you have trouble running the notebooks, feel free to contact us (via email or repository issue tracker).
+
+
+# Literature summaries for all interactions types across all of the datasets
 
 | Dataset  | Additive (+) | Competing (-) | XOR (*) |
 |----------|----------|----------|----------|
