@@ -100,7 +100,7 @@ def fast_split_by_median(feature, feature_values, sorted_time, sorted_events, TI
     return (feature, dif_rstm, limit_is_lower)
 
 
-def rmst_diff(X: pd.DataFrame, y=None):
+def rmst_diff(X: pd.DataFrame, y=None, return_all:bool=False):
         interaction = []
 
 
@@ -131,9 +131,9 @@ def rmst_diff(X: pd.DataFrame, y=None):
             # self.interaction.append((interaction_term, interaction_mult_rmst, np.abs(interaction_mult_rmst - np.max(temp))))
 
             hits = [
-                interaction_add_rmst if np.all(interaction_add_rmst > temp) else np.nan,
-                interaction_diff_rmst if np.all(interaction_diff_rmst > temp) else np.nan,
-                interaction_mult_rmst if np.all(interaction_mult_rmst > temp) else np.nan,
+                interaction_add_rmst if return_all or np.all(interaction_add_rmst > temp) else np.nan,
+                interaction_diff_rmst if return_all or np.all(interaction_diff_rmst > temp) else np.nan,
+                interaction_mult_rmst if return_all or np.all(interaction_mult_rmst > temp) else np.nan,
             ]
 
             if np.isnan(hits).all():
